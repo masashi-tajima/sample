@@ -58,7 +58,7 @@ SELECT
    dat_sales_product.code_product,
    mst_product.name AS mst_product_name,
    dat_sales_product.price,
-   dat_sales_product.quantity,
+   dat_sales_product.quantity
 FROM
    dat_sales,dat_sales_product,mst_product
 WHERE
